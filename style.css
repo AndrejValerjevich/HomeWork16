@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    zoom: 100%;
+    font-family: Ubuntu;
+    outline: none;
+}
+
+@font-face {
+    font-family: Ubuntu; /* Имя шрифта */
+    src: url(font/Ubuntu-L.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background: url("image/background.png");
+    background-size: cover;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.p-center {
+    text-align: center;
+}
+
+.horizontal-line {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #34AE91; /* Цвет линии для остальных браузеров */
+    background-color: #34AE91; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+}
+
+/*--------------Работа с Header-------------*/
+.header-container {
+    display: block;
+    margin: auto;
+    width: 960px;
+    height: 100px;
+    text-shadow: 1px 1px 1px black, 0 0 1em gray;
+}
+
+.header-container__menu {
+    margin: 0;
+    padding: 30px;
+}
+
+.header-container__menu__item {
+    display: block;
+    float: left;
+}
+
+.header-container-link {
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    font-size: 1.8em;
+    margin-left: 60px;
+}
+.logo-link {
+    margin-left: 20px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+    color: #34AE91;
+}
+
+.header-container-link:hover {
+    color: #34AE91;
+}
+
+/*--------------Работа с контентом--------------*/
+.main-container-fieldset {
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.main-container-fieldset__map {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.main-container-fieldset__search-form-container {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(137, 137, 137, 0.5);
+    margin: auto;
+}
+
+.main-container-fieldset__search-form-container-center {
+    display: block;
+    margin: auto;
+    width: 960px;
+    height: inherit;
+}
+
+.main-container-fieldset__search-form {
+    display: block;
+    margin: 0;
+    text-align: center;
+    height: auto;
+}
+
+.main-container-fieldset__input-text {
+    width: 350px;
+    height: 30px;
+    border: solid #34AE91 1px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+.main-container-fieldset__adresses {
+    list-style-image: url("image/geo_point.png");
+}
+
+.main-container-fieldset__adresses__item {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.main-container-fieldset__adresses__item-link {
+    text-decoration: none;
+    color: black;
+}
+.main-container-fieldset__adresses__item-link:hover {
+    color: #34AE91;
+}
+
+
+/*-----------Формы и кнопки------------*/
+.button {
+    height: 30px;
+    width: 150px;
+    background-color: #34AE91;
+    border: solid #34AE91 1px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-top: 30px;
+    font-weight: 500;
+    color: white;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+
+
+
