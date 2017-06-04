@@ -18,7 +18,6 @@ $api
     ->load();
 
 $response = $api->getResponse();
-$response->getFoundCount(); // кол-во найденных адресов
 
 // Список найденных точек
 $collection = $response->getList();
