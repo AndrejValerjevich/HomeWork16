@@ -1,0 +1,16 @@
+{
+    "name": "andrejdenisiuk/yandex_api",
+    "description": "Determinate coordinates by adress",
+    "authors": [
+        {
+            "name": "Andrej Denisiuk",
+            "email": "andrejdenisiuk@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : "> 5.3.0",
+        "monolog/monolog": "^1.22",
+        "yandex/geo": "^1.1"
+    }
+}
